@@ -1,0 +1,50 @@
+.index-category {
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.index-category b {
+	color: #dd5533;
+}
+
+.index-category a {
+	color: #000;
+}
+
+.index-category a:Hover {
+	color: #dd5533;
+}
+
+.under-cat-box {
+    background-color: #ffffff;
+	border-top:rgba(221,85,51,100) 5px solid;
+	width: 175px;
+	border-radius: 5px;
+	padding: 20px;
+	position: absolute;
+	left: 20px;
+}
+
+@media (max-width: 1439px){
+	.under-cat-box{
+		position: relative;
+		width: 910px;
+		height: 50px;
+		right: 0px;
+		margin-bottom: 3%;
+	}
+	
+	.under-cat-box ul {
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.under-cat-box ul li {
+		display: block;
+		position: relative;
+		float: left;	
+		margin-left: 10px;
+		margin-top: 0;
+	}
+}

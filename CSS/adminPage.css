@@ -1,0 +1,49 @@
+.search2 {
+	margin-left: 100px;
+}
+
+.adminwords {
+	background-color: white;
+	border-width: 5px 0px 0px 0px;
+	border-style: solid;
+	border-color: #DD5533;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 3%;
+	margin-top: 0.5%;
+	margin-top: 50px
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+tr {
+	background-color: #FFF;
+}
+
+tr, th {
+	padding: 15px;
+}
+
+tr, td {
+	padding: 15px;
+}
+
+.adminsearch {
+	margin-left: 45%;
+}
+
+.adminsearchfilter {
+	margin-left: 45%;
+}
+
+.adminbox {
+	margin-left: 5.5%;
+	margin-top: 2%;
+}
+
+.addeddit {
+	height:5vh;
+	width: 20vw;
+}

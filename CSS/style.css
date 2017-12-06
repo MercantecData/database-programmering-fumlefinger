@@ -1,0 +1,292 @@
+/*The css is split up into multiple files to make an overview.*/
+@import url("navBar.css");
+@import url("Categorie.css");
+@import url("adminPage.css");
+
+/*Stuff that is standalised over all the sites.*/
+a {
+	text-decoration: none
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-color: #5e5e5e;
+	margin: 0 0 150px;
+	padding:0px;
+	/*overflow-x: hidden;*/
+}
+
+h1{
+	margin-top: 20px;
+}
+
+h4{
+	text-align: center;
+	font-size: 70px;
+	font-family: "Impact", Charcoal, sans-serif;
+	-webkit-text-fill-color: #FFFFFF;
+    -webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000000;
+}
+
+h5{
+	text-align: left;
+	font-size: 20px;
+	color: #DD5533;
+	margin-left: 5px;
+	Font-family: Truth FB font;
+}
+
+h6{
+	text-align: center;
+	font-size: 35px;
+	font-family: "Impact", Charcoal, sans-serif;
+	-webkit-text-fill-color: #FFFFFF;
+    -webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000000;
+}
+
+pre {
+	color: #808080;
+	margin-bottom: 20px;
+	margin-left: 250px;
+}
+
+a {
+	font-family: arial;
+}
+
+.wrapper {
+	width:950px;
+	margin: 0 auto;
+}
+
+header {
+	clear: both;
+	width: 100%;
+	height: 120px;
+	background-color: #303030;
+	text-align: center;
+}
+
+header img {
+	margin: 2% auto;
+	width: 400px;
+	height: 75px;
+	display: block¨;
+}
+
+footer {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.1rem;
+	background-color: #303030;
+	text-align: center;
+}
+
+footer img {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 200px;
+	height: 50px;
+}
+
+.post {
+    background-color: white;
+	border-width: 5px 0px 0px 0px;
+	border-style: solid;
+	border-color: #DD5533;
+	border-radius: 5px;
+	padding: 0.5px;
+	margin-top: 3%;
+}
+
+.index-intro {
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.index-intro h2 {
+	font-family: arial;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.index-intro p {
+	font-family: arial;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	line-height: 22px;
+}
+
+.NyesteThread {
+	background-color: #fff;
+	border-top:rgba(221,85,51,100) 5px solid;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.textarea-box{
+	resize:none;
+	height:100px;
+	width:100%;
+	border-radius:3px;
+	border:rgba(0,0,0,.3) 2px solid;
+	box-sizing:border-box;
+	padding:10px;
+	margin-bottom:30px;
+	font-family: Arial;
+}
+
+.replyBox {
+	background-color: #fff;
+	border-top:rgba(221,85,51,100) 5px solid;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.Signupbox {
+	height: 65%;
+	background-color: white;
+	border-top:rgba(221,85,51,100) 5px solid;
+	width: 25%;
+	margin: 0px 200px;
+	margin-left: 37%;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 200px;	
+}
+
+.loginbox {
+	height: 40%;
+	background-color: white;
+	border-top:rgba(221,85,51,100) 5px solid;
+	width: 25%;
+	margin: 0px 200px;
+	margin-left: 37%;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 200px;	
+}
+
+.signupbox a {
+	color: #dd5533;
+}
+
+p3 {
+	color: red; 
+}
+
+.textbox{
+	height:50px;
+	width:100%;
+	border-radius:3px;
+	border:rgba(0,0,0,.3) 2px solid;
+	box-sizing:border-box;
+	padding:10px;
+	margin-bottom:30px;
+	font-family: Arial;
+}
+
+.threadCreation {
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.threadbox {
+	background-color: #fff;
+	border-top:rgba(221,85,51,100) 5px solid;
+	margin: 0 200px;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.threadbox2 {
+	background-color: #fff;
+	border-top:rgba(221,85,51,100) 5px solid;
+	width: 250px;
+	border-radius: 5px;
+	padding: 20px;
+	position: absolute;
+	left: 20px;
+}
+
+@media (max-width: 1168px) {
+	.threadbox2 {
+		display: none;
+	}
+}
+
+.textbox{
+	height:50px;
+	width:100%;
+	border-radius:3px;
+	border:rgba(0,0,0,.3) 2px solid;
+	box-sizing:border-box;
+	padding:10px;
+	margin-bottom:30px;
+	font-family: Arial;
+}
+
+.textarea-box{
+	resize:none;
+	height:100px;
+	width:100%;
+	border-radius:3px;
+	border:rgba(0,0,0,.3) 2px solid;
+	box-sizing:border-box;
+	padding:10px;
+	margin-bottom:30px;
+	font-family: Arial;
+}
+
+.PickACategorie{
+	width: 45%;
+	border-radius:3px;
+	border:rgba(0,0,0,.3) 2px solid;
+	box-sizing:border-box;
+	padding:10px;
+	margin-bottom: 30px;
+	font-family: Arial;
+}
+
+.CheckBox {
+	position: relative;
+	left: -4px;
+	margin-bottom: 30px;
+	
+	font-family: Arial;
+	font-size: 15px;
+	
+	vertical-align:middle;
+}
+
+.button{
+	height: 50px;
+	width: 100%;
+	border-radius: 3px;
+	border: rgba(0,0,0,.3) 0px solid;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 30px;
+	background: #DD5533;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 12pt;
+	cursor: pointer;
+}
+
+.button:Hover{
+	background: #c44221;
+}
