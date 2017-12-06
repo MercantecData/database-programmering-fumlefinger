@@ -41,11 +41,11 @@
 			<div class="wrapper">
 				<form class="threadbox2">
 					<b><u>Hvordan stiller man et spørgsmål?</u></b><br></br>
-					&bull; Tjek om dit spøgersmål ikke er blevet stillet før.<br></br>
-					&bull; Skriv en titel der kort beskriver dit spøgersmål<br></br>
-					&bull; Læse dit spøgersmål igemmen. Gør det tydeligt hvad du mener<br></br>
-					&bull; Husk at vælge hvad kategori dit spøgersmål høre ind under<br></br>
-					&bull; Du kan vlæge om du vil har sendt en mail vis nogen svar
+					&bull; Tjek om dit spørgsmål ikke er blevet stillet før.<br></br>
+					&bull; Skriv en titel der kort beskriver dit spørgsmål<br></br>
+					&bull; Læs dit spørgsmål igemmen. Gør det tydeligt hvad du mener<br></br>
+					&bull; Husk at vælge hvad kategori dit spørgsmål høre under<br></br>
+					&bull; Du kan vælge om du vil have sendt en mail hvis nogen svarer
 				</form>
 	
 				<form class="threadbox" method="post" action="Thread_test.php" >
